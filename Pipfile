@@ -10,6 +10,7 @@ sqlalchemy = "*"
 numpy = "*"
 scipy = "*"
 matplotlib = "*"
+prospector = "==1.2.0"
 
 [requires]
 python_version = "3.5"

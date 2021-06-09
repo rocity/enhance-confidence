@@ -27,10 +27,10 @@ jobs:
           sudo -H pip install -U pipenv
       - name: Install pipenv packages
         run: |
-          pipenv install -d
+          pipenv install
       - name: Run linter
         run: |
-          pipenv run python ./main.py
+          pipenv run prospector
 
 
   # This workflow contains a single job called "build"
